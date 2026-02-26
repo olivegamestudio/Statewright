@@ -1,22 +1,18 @@
 ﻿<Project>
-	<PropertyGroup>
-		<!-- Enables Central Package Management for all projects under this directory -->
-		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-
-		<!-- Optional but recommended: makes transitive version control more predictable -->
-		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
-	</PropertyGroup>
-
-	<ItemGroup>
-
-		<!-- Put ALL package versions here -->
-		<PackageVersion Include="MinVer" Version="7.0.0" />
-
-		<PackageVersion Include="coverlet.collector" Version="8.0.0" />
-		<PackageVersion Include="FluentAssertions" Version="8.8.0" />
-		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
-		<PackageVersion Include="xunit" Version="2.9.3" />
-		<PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
-
-	</ItemGroup>
+  <PropertyGroup>
+    <!-- Enables Central Package Management for all projects under this directory -->
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Optional but recommended: makes transitive version control more predictable -->
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Put ALL package versions here -->
+    <PackageVersion Include="MinVer" Version="7.0.0" />
+    <PackageVersion Include="coverlet.collector" Version="8.0.0" />
+    <PackageVersion Include="FluentAssertions" Version="8.8.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageVersion Include="System.ValueTuple" Version="4.6.2" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+  </ItemGroup>
 </Project>
