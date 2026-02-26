@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Statewright/Statewright.csproj" />
+  <Project Path="tests/Statewright.Tests/Statewright.Tests.csproj" />
+</Solution>
